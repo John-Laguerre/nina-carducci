@@ -96,7 +96,7 @@ hr:not([size]) {
   height: 1px;
 }
 
-h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+.about-me__introduction, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
@@ -107,7 +107,7 @@ h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
 @media (min-width: 1200px) {
-  h1, .h1 {
+  .quote__text {
     font-size: 2.5rem;
   }
 }
@@ -119,6 +119,10 @@ h2, .h2 {
   h2, .h2 {
     font-size: 2rem;
   }
+}
+
+.about-me__introduction {
+  font-size: 1rem !important;
 }
 
 h3, .h3 {
@@ -137,10 +141,6 @@ h4, .h4 {
   h4, .h4 {
     font-size: 1.5rem;
   }
-}
-
-h5, .h5 {
-  font-size: 1.25rem;
 }
 
 p {
