@@ -59,9 +59,6 @@
           }
           
     </script>
-
-	<!-- Prechargement des images -->
-    <link rel="preload" href="./assets/images/nina.webp" as="image">
 </head>
 <body>
 	<header class="top-header">
@@ -107,7 +104,7 @@
 	<main>
 		<div id="about">
 			<div class="picture left">
-				<img src="./assets/images/nina.webp" width="405" height="404" alt="portrait de nina">
+				<img src="./assets/images/nina.webp" width="405" height="404" alt="portrait de nina" loading="lazy">
 			</div>
 			<div id="about-me">
 				<h1 class="about-me__title">A propos de moi</h1>
@@ -204,7 +201,7 @@
 					</form>
 				</div>
 				<div class="picture right">
-					<img src="./assets/images/camera.webp" width="640" height="639" style="width: auto; height: auto; max-width: 100%;" alt="portrait de camera">
+					<img src="./assets/images/camera.webp" width="640" height="639" alt="portrait de camera" loading="lazy">
 				</div>
 			</div>
 		</div>
